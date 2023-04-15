@@ -14,15 +14,18 @@
     ></script>
   </head>
   <body>
+    <!-- a div to display video in the background -->
     <div class="video-bg">
       <video width="320" height="240" autoplay loop muted>
         <source
           src="https://assets.codepen.io/3364143/7btrrd.mp4"
           type="video/mp4"
-        />
+        />       <!--   video source -->
         Your browser does not support the video tag.
       </video>
     </div>
+
+    <!-- div to add darkmode and lightmode  -->
     <div class="dark-light">
       <svg
         viewBox="0 0 24 24"
@@ -35,6 +38,7 @@
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
       </svg>
     </div>
+
     <div class="app">
       <div class="header">
         <div class="menu-circle"></div>
@@ -566,6 +570,7 @@
       </div>
       <div class="overlay-app"></div>
     </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
